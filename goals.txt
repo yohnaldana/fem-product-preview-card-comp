@@ -1,0 +1,4 @@
+Goals for this project
+
+- Use SASS
+- Modify the base project to add one additional feature
