@@ -8,13 +8,97 @@
   box-sizing: border-box;
 }
 
-.attribution {
-  display: none;
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2 {
+  font-weight: normal;
 }
 
 img {
   max-inline-size: 100%;
   block-size: auto;
+}
+
+.attribution {
+  display: none;
+}
+
+/* Colors */
+/* Spacing 
+500: 40px or 2.5rem
+400: 32px or 2rem
+300: 24px or 1.5rem
+200: 16px or 1rem
+100: 8px or .5rem
+50: 4px or .25rem
+*/
+/* Typography */
+.text-preset-1 {
+  font-family: Fraunces, serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+.text-preset-2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+
+.text-preset-3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  letter-spacing: 0px;
+}
+
+.text-preset-4 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  letter-spacing: 5px;
+}
+
+.text-preset-5 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+
+body {
+  background-color: #f2eae2;
+}
+
+main {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 0.5rem;
+  margin-top: 80px;
+}
+
+.card-image img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card-information {
+  padding: 2rem;
+}
+.card-information h2 {
+  color: #6c7289;
 }
 
 /*# sourceMappingURL=main.css.map */
