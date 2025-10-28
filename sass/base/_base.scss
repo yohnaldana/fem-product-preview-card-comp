@@ -9,11 +9,16 @@
   box-sizing: border-box;
 }
 
-.attribution {
-  display: none;
+html,
+body {
+  height: 100%;
 }
 
 img {
   max-inline-size: 100%;
   block-size: auto;
+}
+
+.attribution {
+  display: none;
 }
