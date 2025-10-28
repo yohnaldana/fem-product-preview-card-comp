@@ -1,0 +1,60 @@
+/* Colors */
+$black: #1c232b;
+$grey: #6c7289;
+$cream: #f2eae2;
+$white: #fff;
+$green-500: #3d8168;
+$green-700: #1a4032;
+
+$font-fraunces: Fraunces, serif;
+$font-montserrat: Montserrat, sans-serif;
+
+/* Spacing 
+500: 40px or 2.5rem
+400: 32px or 2rem
+300: 24px or 1.5rem
+200: 16px or 1rem
+100: 8px or .5rem
+50: 4px or .25rem
+*/
+
+/* Typography */
+.text-preset-1 {
+  font-family: $font-fraunces;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+.text-preset-2 {
+  font-family: $font-montserrat;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+
+.text-preset-3 {
+  font-family: $font-montserrat;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  letter-spacing: 0px;
+}
+
+.text-preset-4 {
+  font-family: $font-montserrat;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  letter-spacing: 5px;
+}
+
+.text-preset-5 {
+  font-family: $font-montserrat;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
