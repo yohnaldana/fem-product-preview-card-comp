@@ -1,6 +1,6 @@
 @use "base/base";
 @use "utils/variables" as *;
-@use "utils/mixins";
+@use "components/button";
 
 body {
   background-color: $cream;
@@ -19,12 +19,24 @@ main {
   border-top-right-radius: 0.5rem;
 }
 
-.card {
-}
-
 .card-information {
   padding: 2rem;
   h2 {
     color: $grey;
   }
+  h1 {
+    padding: 1.5rem 0;
+  }
+}
+
+.card-description {
+  color: $grey;
+}
+
+.card-pricing {
+  margin: 1.5rem 0;
+}
+
+.card-pricing p {
+  display: inline;
 }
