@@ -117,5 +117,20 @@ main {
 .card-information h2 {
   color: #6c7289;
 }
+.card-information h1 {
+  padding: 1.5rem 0;
+}
+
+.card-description {
+  color: #6c7289;
+}
+
+.card-pricing {
+  margin: 1.5rem 0;
+}
+
+.card-pricing p {
+  display: inline;
+}
 
 /*# sourceMappingURL=main.css.map */

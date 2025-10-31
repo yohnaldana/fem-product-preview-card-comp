@@ -1,0 +1,13 @@
+@use "../utils/variables" as *;
+
+button {
+  text-align: center;
+  width: 100%;
+  background-color: $green-500;
+  color: $white;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
