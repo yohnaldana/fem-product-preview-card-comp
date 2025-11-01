@@ -32,6 +32,11 @@ button {
   cursor: pointer;
 }
 
+picture,
+img {
+  display: block;
+}
+
 /* Colors */
 /* Spacing 
 500: 40px or 2.5rem
@@ -96,11 +101,12 @@ button {
 
 body {
   background-color: #f2eae2;
+  display: flex;
+  justify-content: center;
 }
 
 main {
   background-color: #fff;
-  margin: 0 auto;
   width: 90%;
   border-radius: 0.5rem;
   margin-top: 80px;
@@ -131,6 +137,39 @@ main {
 
 .card-pricing p {
   display: inline;
+}
+
+.card-price {
+  color: #3d8168;
+}
+
+.card-price-previous {
+  color: #6c7289;
+  text-decoration: line-through;
+}
+
+@media (min-width: 600px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    display: flex;
+  }
+  .card-image,
+  .card-information {
+    max-width: 300px;
+  }
+  .card-image img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  main {
+    max-width: 600px;
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

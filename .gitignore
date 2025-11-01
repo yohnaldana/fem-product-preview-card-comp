@@ -21,3 +21,4 @@ design/
 
 node_modules/
 *.json
+sass/
