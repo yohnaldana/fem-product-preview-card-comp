@@ -97,6 +97,11 @@ button {
   display: flex;
   justify-content: center;
   gap: 9px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1a4032;
 }
 
 body {
