@@ -138,10 +138,11 @@ main {
 
 .card-pricing {
   margin: 1.5rem 0;
-}
-
-.card-pricing p {
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
 }
 
 .card-price {
@@ -151,6 +152,10 @@ main {
 .card-price-previous {
   color: #6c7289;
   text-decoration: line-through;
+}
+
+.card-pricing > div {
+  display: inline-block;
 }
 
 @media (min-width: 600px) {
